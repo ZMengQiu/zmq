@@ -2,7 +2,7 @@
 * @Author: hp
 * @Date:   2019-08-15 18:32:05
 * @Last Modified by:   hp
-* @Last Modified time: 2019-08-16 09:25:11
+* @Last Modified time: 2019-09-02 11:01:25
 */
 html,body{
 	width: 100%;
@@ -78,7 +78,7 @@ img{
     line-height: 70px;
 }
 .all-down h2 strong {
-    font-size: 22px;
+    font-size: 21px;
 }
 .all-down h2 em{
     font-size: 14px;
