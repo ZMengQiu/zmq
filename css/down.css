@@ -1,0 +1,362 @@
+/*
+* @Author: hp
+* @Date:   2019-08-15 18:32:05
+* @Last Modified by:   hp
+* @Last Modified time: 2019-08-16 09:25:11
+*/
+html,body{
+	width: 100%;
+	height: 100%;
+}
+li{
+	list-style: none;
+}
+a:hover, a:focus {
+    color: #23527c;
+    text-decoration: none;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: transparent;
+}
+/*导航*/
+.nav0{
+	margin-bottom: 0;
+}
+.nav-left li a{
+	font-size: 20px;
+	color: #000;
+	margin: 10px 20px;
+}
+.nav-right li a{
+	font-size: 20px;
+	color: #000;
+	margin: 10px 20px;
+}
+.nav-right .only{
+	border-radius: 30px;
+	background-color: #15bbf9;
+}
+.nav-right .only a{
+	color: #fff;
+}
+.nav-right .only a:hover{
+	background-color: #15bbf9;
+}
+/*第一部分*/
+.cont0{
+	width: 980px;
+    margin: 0 auto;
+    padding-top: 60px;
+    background: #fff;
+}
+.all-down{
+	width: 979px;
+    min-height: 454px;
+    margin-bottom: 40px;
+    border-top: 1px solid #e7e7e7;
+    border-left: 1px solid #e7e7e7;
+}
+.down-1,.down-2,.down-3{
+	float: left;
+    width: 325px;
+    border-right: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+.tltle-1,.title-2,.title-3{
+	display: block;
+    width: 100%;
+    height: 175px;
+    overflow: hidden;
+    text-align: center;
+}
+img{
+	border:0;
+}
+.all-down h2 {
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+}
+.all-down h2 strong {
+    font-size: 22px;
+}
+.all-down h2 em{
+    font-size: 14px;
+    font-style: italic;
+}
+.all-down h2 span {
+    color: #979797;
+}
+a:link, a:visited {
+    color: #333;
+    text-decoration: none;
+}
+.figtxt{
+	width: 100%;
+    height: 140px;
+    overflow: hidden;
+    font-size: 14px;
+}
+.figtxt ul {
+    width: 290px;
+    margin: 0 auto;
+}
+.figtxt li {
+    width: 100%;
+    height: 27px;
+    overflow: hidden;
+    line-height: 27px;
+    color: #666;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.lbtn{
+	width: 142px;
+    height: 68px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+}
+.lbtn em{
+	display: block;
+    height: 20px;
+    line-height: 17px;
+    color: #848484;
+    font-size: 12px;
+}
+.down_btn{
+	display: block;
+    background-color: #12b7f5;
+    border-radius: 30px;
+    width: 126px;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+}
+.down_btn span{
+	padding-left: 24px;
+    color: #fff;
+    letter-spacing: 0.12em
+}
+.drwrap{
+	position: relative;
+    width: 100%;
+    height: 30px;
+}
+.drwrap .down_btn{
+	position: absolute;
+    left: 8px;
+    top: 0;
+    z-index: 500;
+    margin: 0 auto;
+}
+.drwrap .andd {
+    position: absolute;
+    left: 8px;
+    top: 0;
+    z-index: 500;
+}
+.drwrap .dropList{
+    display: none;
+    position: absolute;
+    left: 8px;
+    top: 18px;
+    width: 126px;
+    padding: 18px 0 10px;
+    background: transparent url(https://sqimg.qq.com/qq_product_operations/im/2015/dpbg.png) no-repeat left bottom;
+    z-index: 100;
+}
+.dropList a {
+    display: block;
+    height: 27px;
+    line-height: 27px;
+    color: #fff;
+}
+
+.flbtn{
+	width: 284px;
+    margin: 0 auto;
+}
+.flbtn .lbtn{
+	float: left;
+}
+/*第二部分*/
+.cont1 td{
+	position: relative;
+}
+.cont1 img{
+	float: left;
+	position: relative;
+	top: 20px;
+	padding-left: 20px;
+	cursor: pointer;
+}
+.cont1 ul{
+	float: left;
+}
+.cont1 ul li{
+	float: left;
+	cursor: pointer;
+}
+.cont1 ul>li span{
+	font-size: 14px;
+	padding-left: 5px;
+}
+.cont1 ul li:nth-child(2){
+	width: 80px;
+	height: 30px;
+	background-color: #12b7f5;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 30px;
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	margin-top: -15px;
+	color: #fff;
+	cursor: pointer;
+}
+/*第三部分*/
+.cont2 td{
+	text-align: center;
+	cursor: pointer;
+}
+.dowp{
+	font-size: 20px;
+	padding-top: 20px;
+}
+.dowp:hover{
+	color: red;
+}
+.footer{
+	background-color: #2a2a2a;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.all{
+	margin-top: 30px;
+}
+.footer p{
+    color: #666;
+    margin-top: 20px;
+}
+.allqq{
+	float: left;
+    width: 460px;
+    padding-left: 8px;
+}
+.allqq a{
+	background-image: url('../images/plats1.png');
+	background-repeat: no-repeat;
+	float: left;
+    padding-top: 65px;
+    text-align: center;
+}
+.allqq a:nth-child(2){
+	background-position: -3px 0px;
+}
+.allqq a:nth-child(3){
+	background-position: -120px 0px;
+}
+.allqq a:nth-child(4){
+	background-position: -332px 0px;
+}
+.allqq a:nth-child(5){
+	background-position: 0px 0px;
+}
+.allqq a:nth-child(2):hover{
+	background-position: -3px -95px;
+	color: #12b7f5;
+	text-decoration: none;
+}
+.allqq a:nth-child(3):hover{
+	background-position: -120px -95px;
+	color: #12b7f5;
+	text-decoration: none;
+}
+.allqq a:nth-child(4):hover{
+	background-position: -332px -95px;
+	color: #12b7f5;
+	text-decoration: none;
+}
+.allqq a:nth-child(5):hover{
+	background-position: 0px -95px;
+	color: #12b7f5;
+	text-decoration: none;
+}
+
+.qq{
+	color: #666;
+	margin: 20px;
+}
+.map{
+	float: left;
+	width: 120px;
+}
+.map p{
+	text-align: center;
+}
+.map a{
+	color: #666;
+}
+.map a:hover{
+	text-decoration: none;
+}
+hr{
+	border-top: 1px solid #666;
+}
+.copy{
+	padding-top: 30px;
+}
+.copy p{
+	text-align: center;
+}
+/* 模态框：登录 */
+.mol{
+	margin: 100px auto;
+}
+.mol .hh3,.mol p{
+	text-align: center;
+}
+.mol ul{
+	overflow: hidden;
+	margin-left: 150px;
+	margin-top: 20px;
+}
+.mol ul li{
+	float: left;
+}
+.mol ul li:nth-child(1){
+	border: 1px solid #ccc;
+	position: relative;
+	left: 30px;
+	cursor: pointer;
+}
+.mol ul li:nth-child(2){
+	display: none;
+}
+.mol span a{
+	color: gray;
+	border-right: 1px solid gray;
+	margin: 3px;
+	padding-right: 10px;
+}
+.mol span a:nth-child(3){
+	border-right: none;
+}
+button.but-close{
+	font-weight: 100;
+	font-size: 50px;
+   	cursor: pointer;
+   	border-radius: 50%;
+   	width: 50px;
+   	height: 50px;
+    border: 1px solid gray;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+button.but-close:hover{
+	background-color: red;
+	color: #fff;
+}

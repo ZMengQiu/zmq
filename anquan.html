@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>QQ安全中心</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css">
+	    <script src="js/jquery-1.11.1.js"></script>
+	    <script src="js/jquery.mousewheel.js"></script>
+	    <script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+	    <link rel="stylesheet" type="text/css" href="css/anquan.css"/>
+	    <script src="js/anquan.js"></script>
+    </head>
+    <body>
+	    <nav class="navbar navbar-default navv">
+			<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand logo" href="#"><img src="images/ico_logo.png" alt="" /></a>
+				</div>
+	
+				<div class="collapse navbar-collapse coll" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">反馈问题&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+						<li class="phone">
+							<a href="#" class="show">手机APP</a>
+							<div class="box">
+								<img src="images/deng.png" width="80px"/>
+								<p>扫码下载手机APP</p>
+							</div>
+						</li>
+						<li data-toggle="modal" data-target="#myModal"><a href="#">登录</a></li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
+		<p class="txt">公告：至尊保功能调整</p>
+		<div class="all">
+			<div class="container">
+				<div class="list">
+					<ul>
+						<li>
+							<i class="title1"></i>
+							<h3>密码管理</h3>
+							<p>找回、修改QQ密码，从这里开始</p>
+						</li>
+						<li>
+							<i class="title2"></i>
+							<h3>密保工作</h3>
+							<p>设置安全保护，快速解决账号异常</p>
+						</li>
+						<li>
+							<i class="title3"></i>
+							<h3>账号解封</h3>
+							<p>解除账号限制，恢复登录</p>
+						</li>
+					</ul>
+				</div>
+				<div class="list0">
+					<p>更多功能</p>
+					<hr width="100%" size="1px" align="center" color="#ccc"/>
+				</div>
+				<div class="list1">
+					<ul class="show">
+						<li>
+							<i></i>
+							<h4>独立密码</h4>
+							<p>忘记独立密码可重新设置</p>
+						</li>
+						<li>
+							<i></i>
+							<h4>QQ登录保护</h4>
+							<p>登录验证密保，阻止坏人登录</p>
+						</li>
+						<li>
+							<i></i>
+							<h4>游戏保护</h4>
+							<p>登录验证密保，阻止游戏财产</p>
+						</li>
+						<li>
+							<i></i>
+							<h4>邮箱保护</h4>
+							<p>登录验证密保，防止隐私泄露</p>
+						</li>
+					</ul>
+					<!-- 隐藏的图文，鼠标移上去显示 -->
+					<ul class="hid">
+						<li>
+							<i><img src="images/deng.png" alt="" width="65px"></i>
+							<h4>QQ登录保护</h4>
+							<p>扫描下载QQ，开启设备锁</p>
+						</li>
+						<li>
+							<i><img src="images/deng.png" alt="" width="65px"></i>
+							<h4>游戏保护</h4>
+							<p>扫描下载手机APP，开启游戏保护</p>
+						</li>
+						<li>
+							<i><img src="images/deng.png" alt="" width="65px"></i>
+							<h4>邮箱保护</h4>
+							<p>扫描下载手机APP，开启游戏保护</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<p><a href="#">关于腾讯</a>|<a href="#" >About Tencent</a>|<a href="#" >服务条款</a>|<a href="#">腾讯招聘</a>|<a href="#">隐私政策</a>|<a href="#">帮助中心<span></span></a></p>
+			<p>Copyright © 1998 - <span>2019</span> Tencent. All Rights Reserved. </p>
+		</footer>
+		  <!-- 模态框：登录 -->
+   		 <div class="modal fade modal fade bs-example-modal-sm mol" tabindex="-1" role="dialog" id="myModal" aria-labelledby="myModalLabel">
+	        <div class="modal-dialog" role="document">
+	            <div class="modal-content">
+	                <div>
+	                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	                        <span aria-hidden="true" class="xx">&times;</span>
+	                    </button>
+	                    <p class="title">用户登录</p>
+	                </div>
+	                <div class="modal-body">
+	                    <h3 class="modal-title hh3">帐号密码登录</h3>
+	                    <h4 class="tui">推荐使用<a href="#" data-toggle="modal" data-target="#myModal0">快速安全登录</a>，防止盗号。</h4>
+	                    <form action="#" class="form">
+	                    	<input type="text" placeholder="支持QQ号/邮箱/手机号登录"><br>
+	                    	<input type="password" placeholder="密码"><br>
+	                    	<input type="submit" value="登录">
+	                    </form>
+	                </div>
+	                <div class="modal-footer">
+	                    <span>
+	                        <a href="#">忘了密码？</a>
+	                    </span>
+	                </div>
+	            </div><!-- /.modal-content -->
+	        </div><!-- /.modal-dialog -->
+	    </div><!-- /.modal -->
+	    <!-- 当点击快速安全登录时 -->
+	    <div class="modal fade modal fade bs-example-modal-sm mol0" tabindex="-1" role="dialog" id="myModal0" aria-labelledby="myModalLabel">
+	        <div class="modal-dialog" role="document">
+	            <div class="modal-content">
+	                <div class="modal-header">
+	                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	                        <span aria-hidden="true">&times;</span>
+	                    </button>
+	                    <h3 class="modal-title hh3">快速安全登录</h3>
+	                </div>
+	                <div class="modal-body">
+	                    <p>请使用QQ手机版扫描二维码，</p>
+	                    <p>安全登录，防止盗号。</p>
+	                    <ul>
+	                        <li> <img src="images/deng.png" alt=""></li>
+	                        <li> <img src="images/deng1.png" alt=""></li>
+	                    </ul>
+	                </div>
+	                <div class="modal-footer">
+	                    <span>
+	                        <a href="#">账号密码登录</a>
+	                        <a href="#">注册新账号</a>
+	                        <a href="#">意见反馈</a>
+	                    </span>
+	                </div>
+	            </div><!-- /.modal-content -->
+	        </div><!-- /.modal-dialog -->
+	    </div><!-- /.modal -->
+	</body>
+</html>

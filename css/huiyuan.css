@@ -1,0 +1,373 @@
+/*
+* @Author: hp
+* @Date:   2019-08-15 13:42:30
+* @Last Modified by:   hp
+* @Last Modified time: 2019-08-16 09:43:44
+*/
+html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	background-image: url('../images/hy_bg_index.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+li{
+	list-style: none;
+}
+/*//修改框架的一些固定样式*/
+.btn-default:active:hover,.btn-default:active:focus{
+	background-color: transparent;
+	border-color: transparent;
+	outline: none;
+}
+.navv{
+	width: 100%;
+	height: 90px;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	margin-bottom: 0px;
+	border: none;
+	z-index: 1;
+}
+.cont{
+	width: 1400px;
+	margin: 0px auto;
+}
+.logo{
+	position: relative;
+	top: -17px;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+	background-color: transparent;
+    text-decoration: none;
+    color: red;
+}
+.nav-left li a{
+	color: #fff;
+	line-height: 60px;
+	font-size: 18px;
+}
+.nav-right button{
+	height: 40px;
+	margin-top: 17px;
+	margin-right: 20px;
+	border-radius: 20px;
+	outline: none;
+}
+.nav-right button:nth-child(1){
+	font-size: 18px;
+	color: #fbd74f;
+	border-color: #fbd74f;
+	background-color: transparent;
+	width: 96px;
+}
+.nav-right button:nth-child(2){
+	font-size: 18px;
+	background-color:  #fbd74f;
+	width: 136px;
+}
+/* 隐藏的小列表 */
+.list1{
+	background-color: rgba(0, 0, 0, 0.3);
+	display: none;
+}
+.list1 ul{
+	overflow: hidden;
+	position: relative;
+	left: 13%;
+}
+.list1 ul li a{
+	color: #fff;
+	float: left;
+	line-height: 20px;
+	margin: 10px;
+}
+.list2{
+	background-color: rgba(0, 0, 0, 0.3);
+	display: none;
+}
+.list2 ul{
+	overflow: hidden;
+	position: relative;
+	left: 40%;
+}
+.list2 ul li a{
+	color: #fff;
+	float: left;
+	line-height: 20px;
+	margin: 10px;
+}
+.list3{
+	background-color: rgba(0, 0, 0, 0.3);
+	display: none;
+}
+.list3 ul{
+	overflow: hidden;
+	position: relative;
+	left: 47%;
+}
+.list3 ul li a{
+	color: #fff;
+	float: left;
+	line-height: 20px;
+	margin: 10px;
+}
+/* 轮播图 */
+.cont0{
+	position: relative;
+	margin-top: 140px;
+}
+.banner{
+	width: 800px;
+	margin: 0px auto;
+	overflow: hidden;
+	cursor: pointer;
+}
+.banner ul{
+	width: 9999px;
+	overflow: hidden;
+	position: relative;
+	left: 0px;
+}
+.banner ul li{
+	float: left;
+	text-align: center;
+}
+.banner ol{
+	position: absolute;
+	bottom: -30px;
+	left: 50%;
+	margin-left: -80px;
+	overflow: hidden;
+}
+.banner ol li{
+	float: left;
+	width: 10px;
+	height: 10px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	margin: 10px;
+	cursor: pointer;
+}
+.add{
+	background-color: #fff;
+}
+.span-left,.span-right{
+	position: absolute;
+	display: inline-block;
+	background-image: url('../images/right.png');
+	background-repeat: no-repeat;
+	width: 56px;
+    height: 90px;
+    top: 50%;
+	margin-top: -45px;
+    cursor: pointer;
+}
+.span-left{
+	background-position: -160px -150px;
+	left: 130px;
+	
+}
+.span-right{
+	background-position: -220px -150px;
+	right: 130px;
+}
+.cont1{
+	margin-top: 30px;
+}
+.cont1 ul{
+	overflow: hidden;
+	width: 960px;
+	padding-left: 0px;
+	margin: 0px auto;
+}
+.cont1 ul li{
+	text-align: center;
+	color: #fff;
+	float: left;
+	margin: 10px;
+	position: relative;
+	cursor: pointer;
+	border-bottom: 5px solid #FAD65C;
+}
+.cont1 ul li div{
+	position: absolute;
+	line-height: 5px;
+	top: 5%;
+	left: 50%;
+	margin-left: -70px;
+}
+.cont1 ul li p{
+	font-size: 18px;
+}
+.cont1 ul li:hover{
+	top: -10px;
+}
+.cont2{
+	margin-top: 50px;
+}
+.cont2 ul{
+	overflow: hidden;
+	padding: 0px;
+	width: 840px;
+	margin: 0px auto;
+}
+.cont2 ul li{
+	float: left;
+	margin: 10px;
+	background-image: url('../images/sprites_footer.png');
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 85px;
+	cursor: pointer;
+}
+.cont2 ul li p{
+	text-align: center;
+	color: #6c6b70;
+}
+.cont2 ul li:nth-child(1){
+	background-position: 0 0;
+}
+.cont2 ul li:nth-child(2){
+	background-position: 0 -100px;
+}
+.cont2 ul li:nth-child(3){
+	background-position: 0 -300px;
+}
+.cont2 ul li:nth-child(4){
+	background-position: 0 -400px;
+}
+.cont2 ul li:nth-child(5){
+	background-position: 0 -500px;
+}
+.cont2 ul li:nth-child(6){
+	background-position: 0 -200px;
+}
+.cont2 ul li:nth-child(7){
+	background-position: 0 -600px;
+}
+.cont2 ul li:nth-child(1):hover{
+	background-position: -100px 0;
+}
+.cont2 ul li:nth-child(2):hover{
+	background-position: -100px -100px;
+}
+.cont2 ul li:nth-child(3):hover{
+	background-position: -100px -300px;
+}
+.cont2 ul li:nth-child(4):hover{
+	background-position: -100px -400px;
+}
+.cont2 ul li:nth-child(5):hover{
+	background-position: -100px -500px;
+}
+.cont2 ul li:nth-child(6):hover{
+	background-position: -100px -200px;
+}
+.cont2 ul li:nth-child(7):hover{
+	background-position: -100px -600px;
+}
+/* 页尾 */
+.footer{
+	width: 100%;
+	margin: 50px auto;
+	text-align: center;
+	color: #6c6b70;
+}
+/* 滚动显示 */
+.footer0{
+	width: 100%;
+	height: 75px;
+	background-color: rgba(0, 0, 0, 0.6);
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	display: none;
+}
+.footer0 img{
+	position: relative;
+	top: -50px;
+}
+.span1{
+	color: white;
+	font-size: 25px;
+	position: relative;
+	top: -25px;
+	margin-left: 30px;
+	cursor: pointer;
+}
+.span2 a{
+	color: #df3631;
+	font-size: 20px;
+	position: relative;
+	top: -25px;
+	margin-left: 35px;
+	cursor: pointer;
+}
+.span3{
+	display: inline-block;
+	text-align: center;
+	width: 252px;
+	height: 75px;
+	color: #7a4702;
+	line-height: 75px;
+	background-color: #fad65c;
+	font-size: 30px;
+	position: relative;
+	top: -23px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+/* 模态框：登录 */
+.mol{
+	margin: 100px auto;
+}
+.mol .hh3,.mol p{
+	text-align: center;
+}
+.mol ul{
+	overflow: hidden;
+	margin-left: 150px;
+	margin-top: 20px;
+}
+.mol ul li{
+	float: left;
+}
+.mol ul li:nth-child(1){
+	border: 1px solid #ccc;
+	position: relative;
+	left: 30px;
+	cursor: pointer;
+}
+.mol ul li:nth-child(2){
+	display: none;
+}
+.mol span a{
+	color: gray;
+	border-right: 1px solid gray;
+	margin: 3px;
+	padding-right: 10px;
+}
+.mol span a:nth-child(3){
+	border-right: none;
+}
+button.but-close{
+	font-weight: 100;
+	font-size: 50px;
+   	cursor: pointer;
+   	border-radius: 50%;
+   	width: 50px;
+   	height: 50px;
+    border: 1px solid gray;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+button.but-close:hover{
+	background-color: red;
+	color: #fff;
+}

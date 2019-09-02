@@ -1,0 +1,226 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+li{
+	list-style: none;
+}
+body,.fix,.fix0{
+	height: 100%;
+}
+a:hover, a:focus {
+    color: #23527c;
+    text-decoration: none;
+}
+/*左部分*/
+.fix{
+	position:fixed;
+	top: 0px;
+	left: 0px;
+}
+.top{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	z-index: 1;
+}
+.fix0 img{
+	height: 100%;
+	position: absolute;
+	opacity: 1;
+	cursor: pointer;
+}
+/* 右部分 */
+.right{
+	margin-left: 480px;
+    position: relative;
+    height: 100%;
+}
+/* 头部 */
+.top0{
+	overflow: hidden;
+	min-width: 560px;
+    top: 0;
+    left: 0;
+    text-align: right;
+    position: relative;
+    z-index: 1;
+}
+.top0 a{
+	color: #666;
+}
+.top0 .three,.top0 .two{
+	float: right;
+    margin: 20px 40px 0 0;
+    font-size: 16px;
+    padding: 10px 0 0;
+    line-height: 24px;
+}
+.top0 .one{
+	float: right;
+    margin: 20px 40px 0 0;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.top0 .one a{
+	position: relative;
+    display: block;
+    float: right;
+}
+.top0 .one a:hover{
+	text-decoration: none;
+}
+.top0 .one a .liang{
+	border-radius: 6px;
+    background: #f54444;
+    background: linear-gradient(126deg,#fc4754,#ff794c) #f54444;
+    height: 24px;
+    line-height: 24px;
+    font-size: 16px;
+    margin: 10px 0 0 5px;
+    padding: 0 10px 0 24px;
+    color: #fff;
+    font-weight: 300;
+}
+.top0 .one a img{
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.list0{
+	clear: both;
+    width: 290px;
+    border-radius: 6px;
+    border: solid 1px #eee;
+    background-color: #fff;
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,.12);
+    overflow: hidden;
+    padding: 0;
+}
+.upper{
+	border-bottom: 1px solid #ccc;
+}
+#key{
+	width: 80%;
+	color: #ccc;
+	border: none;
+	outline: none;
+}
+.sear{
+	text-align: center;
+	line-height: 20px;
+	cursor: pointer;
+	border-left: 1px solid #ccc;
+}
+.suggest-detail{
+	overflow: hidden;
+	width: 208px;
+	margin: 0 auto;
+}
+.suggest-detail a{
+	color: skyblue;
+	margin: 10px;
+}
+.top0 .two{
+	cursor: pointer;
+}
+
+/* 下部分 */
+/* 标题 */
+.title{
+	width: 480px;
+	height: 112px;
+	margin: 50px auto;
+}
+
+.bottom .welcom{
+	font-size: 44px;
+    margin-bottom: 20px;
+}
+.bottom .welcom,.bottom .header{
+    color: black;
+	text-align: left;
+}
+.h3-span .header{
+	font-size: 28px;
+    margin-bottom: 64px;
+    line-height: 1.2;
+    color: #333;
+}
+.h3-span span{
+	float: right;
+	font-size: 25px;
+	color: #3587ff;
+	cursor: pointer;
+}
+/* 输入框 */
+.form{
+	text-align: center;
+}
+.form input{
+	margin: 10px;
+	padding-left: 5px;
+	width: 480px;
+	height: 50px;
+	color: #bbb;
+	font-size: 20px;
+	border-radius: 5px;
+	border: none;
+	border: 1px solid #bbb;
+}
+input[type='button']{
+	width: 154px;
+}
+input[type='submit']{
+	font-size: 25px;
+	line-height: 30px;
+	color: #fff;
+	background-color: #3587ff;
+}
+input[type='radio']{
+	width: 10px;
+}
+.telphone{
+	width: 490px;
+	overflow: hidden;
+	text-align: center;
+	margin: 0px auto;
+}
+.telphone .sele{
+	position: relative;
+	top: 10px;
+	float: left;
+	width: 160px;
+	height: 50px;
+	cursor: pointer;
+}
+input[type='tel']{
+	float: right;
+	width: 307px;
+}
+.text0{
+	width: 154px;
+	float: left;
+}
+.zhao{
+    height: 14px;
+    color: #999;
+    position: relative;
+    left: -170px;
+}
+input[type='radio']{
+	height: 10px;
+}
+/* 提示语句 */
+#info1,#info2{
+	color: red;
+	position: relative;
+	left: -190px;
+	display: none;
+}
+.footer{
+	color: #bbb;
+    text-align: center;
+    margin: 100px 0;
+}
